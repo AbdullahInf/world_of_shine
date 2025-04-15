@@ -533,3 +533,47 @@ section {
   color: #ef4444; /* Replace with actual $danger-color */
 }
 
+.terms {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.terms-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.terms h3 {
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.terms h4 {
+  color: #0275d8;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.terms-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.terms-list li {
+  padding: 8px 0;
+  position: relative;
+  padding-left: 25px;
+}
+
+.terms-list li:before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  color: #0275d8;
+}
